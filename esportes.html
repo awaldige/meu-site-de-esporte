@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre esportes, com notícias, resultados e próximos jogos.">
+    <title>Meu Site de Esportes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: url('imagens/banner-esportes.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-article {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .news-article img {
+            max-width: 150px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+            border: 2px solid #ccc;
+        }
+
+        .news-content h3 {
+            color: #2c3e50;
+        }
+
+        .news-content p {
+            color: #7f8c8d;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Meu Site de Esportes
+    </header>
+
+    <nav>
+        <a href="#noticias">Notícias</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#proximos-jogos">Próximos Jogos</a>
+    </nav>
+
+    <section id="noticias">
+        <h2>Últimas Notícias</h2>
+
+        <div class="news-article">
+            <img src="imagens/futebol.jpg" alt="Futebol">
+            <div class="news-content">
+                <h3>⚽ Final do Campeonato de Futebol</h3>
+                <p>O time X venceu a grande final após uma disputa acirrada nos pênaltis.</p>
+            </div>
+        </div>
+
+        <div class="news-article">
+            <img src="imagens/basquete.jpg" alt="Basquete">
+            <div class="news-content">
+                <h3>🏀 NBA: Time Y conquista título inédito</h3>
+                <p>O time Y fez história ao vencer a final com uma atuação brilhante de seu armador.</p>
+            </div>
+        </div>
+
+        <div class="news-article">
+            <img src="imagens/formula1.jpg" alt="Fórmula 1">
+            <div class="news-content">
+                <h3>🏎️ Piloto Z domina o GP de Mônaco</h3>
+                <p>Piloto Z vence o GP de Mônaco e assume a liderança do campeonato.</p>
+            </div>
+        </div>
+
+        <div class="news-article">
+            <img src="imagens/beisebol.jpg" alt="Beisebol">
+            <div class="news-content">
+                <h3>⚾ MLB: Home run decisivo garante a vitória</h3>
+                <p>O jogador W acertou um home run no último inning e garantiu o título.</p>
+            </div>
+        </div>
+
+        <div class="news-article">
+            <img src="imagens/hoquei.jpg" alt="Hóquei">
+            <div class="news-content">
+                <h3>🏒 NHL: Time V vence nos pênaltis</h3>
+                <p>Após uma prorrogação emocionante, o time V levou a melhor nos pênaltis.</p>
+            </div>
+        </div>
+
+        <div class="news-article">
+            <img src="imagens/tenis.jpg" alt="Tênis">
+            <div class="news-content">
+                <h3>🎾 Grand Slam: Campeão coroado em final épica</h3>
+                <p>O tenista X venceu a final em uma batalha de cinco sets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resultados">
+        <h2>Resultados</h2>
+        <ul>
+            <li>⚽ Time A 🆚 Time B ➝ 2 - 1</li>
+            <li>🏀 Time C 🆚 Time D ➝ 0 - 0</li>
+        </ul>
+    </section>
+
+    <section id="proximos-jogos">
+        <h2>Próximos Jogos</h2>
+        <ul>
+            <li>⚽ Time E 🆚 Time F ➝ 15h00</li>
+            <li>🏀 Time G 🆚 Time H ➝ 18h00</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 Meu Site de Esportes | Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
